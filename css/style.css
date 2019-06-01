@@ -1,0 +1,66 @@
+.slider h3,
+.slider h5 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+    
+}
+nav{
+    filter: drop-shadow(0px 1px 8px rgba(0,0,0,.3));
+}
+
+.main{
+    filter: drop-shadow(0px 1px 8px rgba(0,0,0,.3));
+}
+.responsive-img{
+    filter: opacity(.5);
+}
+/* .slider h3{
+    font-size: 65px;
+}
+
+.slider h5{
+    margin-top: -22px; 
+    font-size: 35px;
+} */
+
+body{
+    font-family:'Questrial';
+}
+
+
+@font-face{
+    font-family: 'Questrial';
+    src: url(../font/Questrial-Regular.ttf);
+}
+
+span{
+    font-size: 25px;
+}
+
+section{
+    padding: 20px 0;
+}
+
+.card-panel{
+    border-radius: 20px;
+}
+
+.main .btn-floating{
+    margin-top: 20px;
+}
+
+.main h5{
+    margin-top: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .4s; 
+}
+
+.main  h5:hover{
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
+    transition: .7s; 
+    color: #04dabd;
+}
+
+.about-me hr{
+    width: 15%;
+}
