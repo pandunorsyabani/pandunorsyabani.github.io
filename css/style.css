@@ -10,9 +10,11 @@ nav{
 .main{
     filter: drop-shadow(0px 1px 8px rgba(0,0,0,.3));
 }
-.responsive-img{
+.slider .slides .responsive-img{
     filter: opacity(.5);
 }
+
+
 /* .slider h3{
     font-size: 65px;
 }
@@ -32,7 +34,7 @@ body{
     src: url(../font/Questrial-Regular.ttf);
 }
 
-span{
+.navbar span{
     font-size: 25px;
 }
 
@@ -41,7 +43,7 @@ section{
 }
 
 .card-panel{
-    border-radius: 20px;
+    border-radius: 7px;
 }
 
 .main .btn-floating{
@@ -61,6 +63,58 @@ section{
     color: #04dabd;
 }
 
-.about-me hr{
+hr{
     width: 15%;
 }
+
+.about .card-panel{
+    margin-top: 20px;
+}
+.about .card-panel h6{
+    margin: 0;
+}
+
+.parallax-container{
+    height: 400px;
+}
+
+.parallax-container h1{
+    margin-top: 220px;
+}
+
+
+.parallax-container span{
+    font-size: 100px;
+}
+
+@media(max-width: 320px){
+    .parallax-container h1{
+        font-size: 30px;
+    }
+    .parallax-container span{
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 425px){
+    .parallax-container h1{
+        font-size: 30px;
+    }
+    .parallax-container span{
+        font-size: 50px;
+    }
+    .parallax-container h1{
+        margin-left: 100px;
+    }
+
+}
+
+@media(max-width: 768px){
+    .parallax-container h1{
+        font-size: 50px;
+    }
+    .parallax-container span{
+        font-size: 80px;
+    }
+}
+

@@ -8,3 +8,9 @@ M.Slider.init(slider,{
     transition: 600,
     interval: 3000
 });
+
+const materialboxed = document.querySelectorAll('.materialboxed');
+M.Materialbox.init(materialboxed);
+
+const parallax = document.querySelectorAll('.parallax');
+M.Parallax.init(parallax);

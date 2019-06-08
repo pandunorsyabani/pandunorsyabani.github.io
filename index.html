@@ -11,7 +11,7 @@
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-      <title>My CV</title>
+      <title>My Blog</title>
 
       <link rel="icon" type="image/png" href="img/personal.png">
 
@@ -19,8 +19,32 @@
 
     <body>
 
+              <!-- Navbar -->
+              <div class="navbar">
+                  <nav class="red lighten-1">
+                    <div class="container">
+                      <div class="nav-wrapper">
+                        <a href="" class="brand-logo center hide-on-med-and-down"><span>my</span> personal <span>blog</span></a>
+                        <!-- <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                          <ul class="right hide-on-med-and-down">
+        
+                          </ul> -->
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+
+      <!-- Parallax -->
+      <div class="parallax-container">
+        <div class="parallax"><img src="img/slider/4.jpg" alt=""></div>
+
+          <h1 class="right responsive-text"><span>i am</span><br>pandu norsyabani</h1>
+      </div>
+
+
+
       <!-- slider -->
-      <div class="slider">
+      <!-- <div class="slider">
         <ul class="slides">
           <li>
             <img class="responsive-img" src="img/slider/4.jpg">
@@ -44,7 +68,7 @@
             </div>
           </li>
         </ul>
-      <div>  
+      <div>   -->
 
 
         <!-- Navbar -->
@@ -52,7 +76,6 @@
           <nav class="red lighten-1">
             <div class="container">
               <div class="nav-wrapper">
-                <a href="" class="brand-logo center hide-on-med-and-down"><span>I'm</span> pandu <span>norsyabani</span></a>
                 <!-- <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                   <ul class="right hide-on-med-and-down">
 
@@ -76,7 +99,7 @@
              <div class="col m4 s12">
               <div class="center white-text ">
                   <a class="btn-floating btn-large pulse" href="about.html"><i class="material-icons">person</i></a>
-                <a href="about.html" class="white-text"><h5>About me</h5></a>
+                <a href="#about" class="white-text"><h5>About me</h5></a>
               </div>
              </div>
               <div class="col m4 s12">
@@ -87,7 +110,7 @@
                 </div>
               <div class="col m4 s12">
                   <div class=" center white-text">
-                      <a class="btn-floating btn-large pulse" href="contact.html"><i class="material-icons">phone</i></a>
+                      <a class="btn-floating btn-large pulse" href="contact.html"><i class="material-icons">email</i></a>
                     <a href="contact.html" class="white-text"><h5>Contact</h5></a>
                   </div>
               </div>
@@ -95,31 +118,54 @@
         </section>
 
         <!-- About me -->
-        <section id="about-me" class="about-me red lighten-1 white-text">
-          <div class="container">
-            <div class="row">
-              <h5 class="center">About me</h5>
-              <hr>
-                <div class="col m6 s12">
-                    <table class="table"> 
-                      <tr> 
-                        <td>Name</td> 
-                        <td>:</td>
-                        <td>Pandu Norsyabani</td> 
-                      </tr> 
-                        <td>Date of Birth</td> 
-                        <td>:</td>
-                        <td>October 30, 2000</td>  
-                      <tr>
-                        <td>Address</td>
-                        <td>:</td>
-                        <td>Jl.Pejanggik RT.06 RW.02  </td>
-                      </tr>
-                    </table> 
+        <section id="about" class="about  red lighten-2 white-text">
+            <div class="container">
+            <h5 class="center ">About me</h5><hr>
+                <div class="row">
+                    <div class="col m6 s12">
+                        <div class="card-panel red lighten-1">
+                            <img src="img/about/8.jpg" class="responsive-img materialboxed">
+                        </div>
+                    </div>
+                    <div class="col m6 s12 ">
+                        <div class="card-panel red lighten-1">
+                            <h6 class="center">Little about me</h6><hr>
+                            <table class="table"> 
+                                <tr>
+                                    <td>Name</td>
+                                    <td>:</td>
+                                    <td>Pandu Norsyabani</td>
+                                </tr>
+                                <tr>
+                                    <td>Date of Birth</td>
+                                    <td>:</td>
+                                    <td>October 30, 2000</td>
+                                </tr>
+                                <tr>
+                                    <td>Address</td>
+                                    <td>:</td>
+                                    <td>Jl.Pejanggik RT.06 RW.02</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="card-panel red lighten-1">
+                            <h6 class="center">My Capability</h6><hr>
+                            <p>Front-end Development</p>
+                            <div class="progress">
+                                <div class="determinate red lighten-2" style="width:70%;"></div>
+                            </div>
+                            <p>Design Graphic</p>
+                            <div class="progress">
+                                <div class="determinate red lighten-2" style="width:80%;"></div>
+                            </div>
+                            <p>Networking</p>
+                            <div class="progress">
+                                <div class="determinate red lighten-2" style="width:70%;"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </section>
 
       <!--JavaScript at end of body for optimized loading-->
